@@ -6,8 +6,7 @@ const student = {
 
 // ...
 
-console.log(name);
-console.log(age);
+console.log(`Hello my name is ${student.name} and I am ${student.age} years old` );
 
 /*
  * Expected output:
