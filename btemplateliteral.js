@@ -1,8 +1,8 @@
-// ...
-
-
 const greeting = createGreeting('Joe Blow');
 
+function createGreeting(name) {
+  return `Hello ${name}!`;
+}
 console.log(greeting);
 
 /* 
