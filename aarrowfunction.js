@@ -103,9 +103,13 @@ const nums = [
 
 // ...
 
-const filtered = max(nums);
+//const filtered = max(nums);
 
-console.log(filtered);
+const max = nums.filter((n) => {
+	if(n < 100)
+		return n;
+});
+console.log(max);
 
 /*
  * Expected output:
