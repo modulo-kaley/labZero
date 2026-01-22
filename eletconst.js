@@ -1,19 +1,19 @@
 // Scenario 1
 
-celsius = 25;
-factor = 9/5;
-fahrenheit = (celsius * factor) + 32;
+const celsius = 25;
+const factor = 9/5;
+const fahrenheit = (celsius * factor) + 32;
 
 console.log(celsius + ' degrees celsius is ' + fahrenheit + ' degrees fahrenheit');
 console.log();
 
 // Scenario 2
-ROCK = 'R';
-PAPER = 'P';
-SCISSORS = 'S';
+const ROCK = 'R';
+const PAPER = 'P';
+const SCISSORS = 'S';
 
-player1Score = 0;
-player2Score = 0;
+let player1Score = 0;
+let player2Score = 0;
 
 function rockPaperScissors(player1, player2) {
 	if (player1 == ROCK) {
@@ -42,7 +42,6 @@ function rockPaperScissors(player1, player2) {
 		}
 	}
 }
-
 player1 = ROCK;
 player2 = PAPER;
 
@@ -68,7 +67,7 @@ console.log('Player 2: ' + player2Score);
 console.log();
 
 // Scenario 3
-names = [
+const names = [
 	'Santa',
 	'Rudolph',
 	'Dasher',
@@ -82,5 +81,5 @@ names = [
 ];
 
 console.log('Workers:');
-
 names.forEach((name) => console.log(name));
+console.log(workers);
